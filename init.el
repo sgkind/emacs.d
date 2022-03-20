@@ -4,6 +4,7 @@
 (require 'init-comm)
 (require 'init-theme)
 
+(require 'init-company)
 (require 'init-org)
 (require 'init-rust)
 
