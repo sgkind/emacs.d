@@ -33,5 +33,6 @@ locate PACKAGE."
     (error
       (message "Couldn't install optional package `%s': %S" package err)
       nil)))
+(require-package 'use-package)
 
 (provide 'init-package)

@@ -3,6 +3,11 @@
 (require 'init-package)
 (require 'init-comm)
 (require 'init-theme)
+
+(require 'init-org)
+(require 'init-rust)
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
