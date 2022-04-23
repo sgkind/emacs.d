@@ -94,6 +94,9 @@
 
 (advice-add 'org-refile :after (lambda (&rest _) (org-save-all-org-buffers)))
 
+;;; 自动换行
+(add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
+
 ;; Exclude DONE state tasks from refile targets
 
 (provide 'init-org)
