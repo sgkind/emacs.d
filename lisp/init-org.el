@@ -1,7 +1,4 @@
 
-;; 自动换行
-;;(add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
-
 ;; 代码高亮
 ;;(setq org-src-fontify-natively t)
 
