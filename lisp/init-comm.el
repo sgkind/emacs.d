@@ -26,5 +26,9 @@
 (require-package 'golden-ratio)
 (golden-ratio-mode 1)
 
+;; NerdTree like
+(require-package 'neotree)
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
 
 (provide 'init-comm)
