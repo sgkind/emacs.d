@@ -30,7 +30,7 @@
 (require-package 'neotree)
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
-(require-package 'all-the-icons-install-fonts)
+(require-package 'all-the-icons)
 (when (display-graphic-p)
     (require 'all-the-icons))
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))

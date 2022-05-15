@@ -3,6 +3,7 @@
 (require 'init-package)
 (require 'init-comm)
 (require 'init-theme)
+(require 'init-editing)
 
 (require 'init-company)
 (require 'init-org)
