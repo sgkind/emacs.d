@@ -25,7 +25,7 @@
 ;; enable automatic resizing
 (require-package 'golden-ratio)
 (golden-ratio-mode 1)
-
+(setq golden-ratio-max-width 90)
 ;; NerdTree like
 (require-package 'neotree)
 (require 'neotree)
