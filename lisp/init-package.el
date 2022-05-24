@@ -1,10 +1,9 @@
 (require 'package)
 
-(require 'package)
 (setq package-archives
-  '(("gnu" . "http://elpa.zilongshanren.com/gnu/")
-     ("melpa" . "http://elpa.zilongshanren.com/melpa/")
-     ("org" . "http://elpa.zilongshanren.com/org/")))
+      '(("gnu" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+	("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+	("org" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 (package-initialize)
 
 (defun require-package (package &optional min-version no-refresh)
