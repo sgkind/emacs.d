@@ -1,7 +1,6 @@
 (require-package 'whitespace)
 
 (global-linum-mode t)
-(menu-bar-mode -1)
 
 (setq backup-directory-alist (quote (("." . "~/.backups"))))
 
@@ -22,10 +21,6 @@
                                ("^.\\{81,\\}$" (0 'my-long-line-face t))
                                ("[ \t]+$"      (0 'my-trailing-space-face t))))))))
 
-;; enable automatic resizing
-(require-package 'golden-ratio)
-(golden-ratio-mode 1)
-(setq golden-ratio-max-width 90)
 ;; NerdTree like
 (require-package 'neotree)
 (require 'neotree)

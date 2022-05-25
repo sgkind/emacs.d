@@ -2,8 +2,11 @@
 
 (require 'init-package)
 
-(require 'init-comm)
+
 (require 'init-theme)
+
+(require 'init-ui)
+(require 'init-comm)
 (require 'init-editing)
 
 (require 'init-ggtags)
