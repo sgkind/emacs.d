@@ -21,6 +21,6 @@
  mouse-yank-at-point t)
 
 (golden-ratio-mode 1)
-;(setq golden-ratio-max-width 90)
+(setq golden-ratio-max-width 90)
 
 (provide 'init-ui)
