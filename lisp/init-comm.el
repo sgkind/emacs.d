@@ -1,6 +1,11 @@
 (require-package 'whitespace)
 
 (global-linum-mode t)
+(setq-default indent-tabs-mode nil)
+(global-set-key(kbd "TAB") 'self-insert-command)
+(setq default-tab-width 4)
+(setq backward-delete-char-untabify-method nil)
+
 
 (setq backup-directory-alist (quote (("." . "~/.backups"))))
 
