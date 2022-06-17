@@ -16,6 +16,7 @@
 (require 'init-rust)
 (require 'init-cpp)
 
+(require 'init-markdown)
 (require 'init-folding)
 
 (custom-set-variables
