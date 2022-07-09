@@ -26,6 +26,13 @@
                                ("^.\\{81,\\}$" (0 'my-long-line-face t))
                                ("[ \t]+$"      (0 'my-trailing-space-face t))))))))
 
+;; Highlighting indentation
+(require-package 'highlight-indentation)
+(require 'highlight-indentation)
+(set-face-background 'highlight-indentation-face "#e3e3d3")
+(set-face-background 'highlight-indentation-current-column-face "#c3b3b3")
+
+
 ;; NerdTree like
 (require-package 'neotree)
 (require 'neotree)
