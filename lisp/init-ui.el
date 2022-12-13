@@ -1,7 +1,11 @@
 ;; theme
-(use-package spacemacs-theme
+;(use-package spacemacs-theme
+;  :defer t
+;  :init (load-theme 'spacemacs-dark t))
+
+(use-package atom-one-dark-theme
   :defer t
-  :init (load-theme 'spacemacs-dark t))
+  :init (load-theme 'atom-one-dark t))
 
 (use-package golden-ratio)
 
