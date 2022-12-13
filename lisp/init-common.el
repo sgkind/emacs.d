@@ -34,4 +34,8 @@
 (setq backup-directory-alist `(("." . ,(concat user-emacs-directory "backups"))))
 (setq auto-save-default nil)
 
+(use-package evil
+  :ensure t
+  :init (evil-mode))
+
 (provide 'init-common)
