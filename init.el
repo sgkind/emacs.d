@@ -3,6 +3,7 @@
 (require 'init-package)
 (require-package 'diminish)
 
+(require 'init-git)
 (require 'init-theme)
 (require 'init-utils)
 
