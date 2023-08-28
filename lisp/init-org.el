@@ -1,4 +1,4 @@
-
+(require-package 'org)
 (require-package 'org-bullets)
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
