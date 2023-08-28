@@ -20,6 +20,7 @@
 
 (require 'init-markdown)
 (require 'init-folding)
+(require 'init-counsel)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
