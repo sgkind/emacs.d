@@ -3,6 +3,8 @@
 (require 'init-package)
 (require-package 'diminish)
 
+(global-set-key (kbd "`") 'execute-extended-command)
+
 (require 'init-git)
 (require 'init-theme)
 (require 'init-utils)
@@ -27,6 +29,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(git-gutter:added-sign "++")
+ '(git-gutter:deleted-sign "--")
+ '(git-gutter:modified-sign "  ")
  '(package-selected-packages '(ggtags atom-one-dark-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
