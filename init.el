@@ -3,8 +3,6 @@
 (require 'init-package)
 (require-package 'diminish)
 
-(global-set-key (kbd "`") 'execute-extended-command)
-
 (require 'init-git)
 (require 'init-theme)
 (require 'init-utils)
