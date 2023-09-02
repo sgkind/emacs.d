@@ -1,6 +1,6 @@
 (require-package 'whitespace)
 
-(global-linum-mode t)
+(global-display-line-numbers-mode 1)
 (setq-default indent-tabs-mode nil)
 (global-set-key(kbd "TAB") 'self-insert-command)
 (setq default-tab-width 4)
