@@ -17,6 +17,10 @@
 ;(require-package 'zenburn-theme)
 ;(load-theme 'zenburn t)
 
+;; dracula-theme
+;(require-package 'dracula-theme)
+;(load-theme 'dracula t)
+
 ;; spacemacs
 (require-package 'spacemacs-theme)
 (load-theme 'spacemacs-dark t)
