@@ -17,6 +17,7 @@
 (require 'init-org)
 (require 'init-rust)
 (require 'init-cpp)
+(require 'init-eglot)
 
 (require 'init-markdown)
 (require 'init-folding)

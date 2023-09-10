@@ -5,8 +5,8 @@
 ;(load-theme 'atom-one-dark t)
 
 ;; monokai
-;(require-package 'monokai-theme)
-;(load-theme 'monokai t)
+(require-package 'monokai-theme)
+(load-theme 'monokai t)
 
 ;; solarized
 ;(require-package 'solarized-theme)
@@ -22,7 +22,7 @@
 ;(load-theme 'dracula t)
 
 ;; spacemacs
-(require-package 'spacemacs-theme)
-(load-theme 'spacemacs-dark t)
+;(require-package 'spacemacs-theme)
+;(load-theme 'spacemacs-dark t)
 
 (provide 'init-theme)

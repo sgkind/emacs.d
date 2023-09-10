@@ -7,6 +7,9 @@
 
 (global-git-gutter-mode +1)
 
+;; If you would like to use git-gutter.el and linum-mode
+(git-gutter:linum-setup)
+
 (custom-set-variables
  '(git-gutter:modified-sign "  ") ;; two space
  '(git-gutter:added-sign "++")    ;; multiple character is OK
