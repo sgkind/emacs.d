@@ -23,6 +23,8 @@
 (require 'init-folding)
 (require 'init-counsel)
 
+(define-key global-map [C-@] 'set-mark-command)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
