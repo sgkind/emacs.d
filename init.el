@@ -24,6 +24,7 @@
 (require 'init-counsel)
 
 (define-key global-map [C-@] 'set-mark-command)
+(define-key y-or-n-p-map [return] 'act)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
