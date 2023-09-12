@@ -14,7 +14,7 @@
     (propertize (concat " " s " ") 'face 'window-numbering-face)))
 (window-numbering-mode 1)
 
-
+;; set backup directory
 (setq backup-directory-alist (quote (("." . "~/.backups"))))
 
 ;;全局显示空格
