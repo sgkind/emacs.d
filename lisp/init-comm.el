@@ -6,6 +6,14 @@
 (setq default-tab-width 4)
 (setq backward-delete-char-untabify-method nil)
 
+;; set windows numbering
+(require-package 'window-numbering)
+(require 'window-numbering)
+(defun window-numbering-get-number-string (&optional window)
+  (let ((s (int-to-string (window-numbering-get-number window))))
+    (propertize (concat " " s " ") 'face 'window-numbering-face)))
+(window-numbering-mode 1)
+
 
 (setq backup-directory-alist (quote (("." . "~/.backups"))))
 
@@ -39,7 +47,8 @@
 ;; NerdTree like
 (require-package 'neotree)
 (require 'neotree)
-(global-set-key [f8] 'neotree-toggle)
+(global-set-key [f5] 'neotree-toggle)
+(global-set-key [f8] 'neotree-refresh)
 (require-package 'all-the-icons)
 (when (display-graphic-p)
     (require 'all-the-icons))
