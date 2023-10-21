@@ -23,7 +23,7 @@
 (require 'init-folding)
 (require 'init-counsel)
 
-(require 'init-vim)
+;;(require 'init-vim)
 
 (define-key global-map [C-@] 'set-mark-command)
 (define-key y-or-n-p-map [return] 'act)
